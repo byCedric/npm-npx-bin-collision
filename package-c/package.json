@@ -1,8 +1,8 @@
 {
-  "name": "@bycedric/test-bin-package-c",
-  "version": "0.0.0",
+  "name": "@bycedric/1test-bin-package-c",
+  "version": "2.0.0",
   "bin": {
-    "@bycedric/test-bin-package-a": "./bin.js"
+    "bycedric-test-bin-package-a": "./bin.js"
   },
   "files": [
     "bin.js"
