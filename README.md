@@ -28,7 +28,7 @@ Packages used in this test, all registering a binary `bycedric-test-bin-package-
   - [`@bycedric/test-bin-package-b@2.0.0`](https://unpkg.com/browse/@bycedric/test-bin-package-b@2.0.0/) -> `"bin": { "bycedric-test-bin-package-a": "./bin.js" }`
     - [`@bycedric/1test-bin-package-c@2.0.0`](https://unpkg.com/browse/@bycedric/1test-bin-package-c@2.0.0/) -> `"bin": { "bycedric-test-bin-package-a": "./bin.js" }`
 
-Running `npx bycedric-test-bin-package-c@2.0.0` yields `You are running the binary of "package-c"`, which is **incorrect**.
+Running `npx bycedric-test-bin-package-a@2.0.0` yields `You are running the binary of "package-c"`, which is **incorrect**.
 
 ## Interpretation
 
